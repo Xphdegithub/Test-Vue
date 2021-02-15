@@ -1,0 +1,259 @@
+// App.vue
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  width: 100%;
+  height: 100%;
+}
+// Login.vue
+.login-container {
+  width: 100%;
+  height: 100%;
+  background-image: url("~@/assets/img/loginBg.jpg");
+  .form-container {
+    width: 400px;
+    height: 250px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background: #fff;
+    transform: translate(-50%, -50%);
+    border-radius: 6px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    .input-size {
+      width: 350px;
+    }
+    .btn-container {
+      width: 350px;
+    }
+  }
+}
+// Home.vue
+.home-container {
+  width: 100%;
+  height: 100%;
+  background-image: url('~@/assets/img/homeBg.jpg');
+  background-size: 100% 100%;
+  position: relative;
+  .title {
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+// 404.vue
+.not-found-container {
+  width: 100%;
+  height: 100%;
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}
+// Index.vue
+.main-container {
+  position: fixed;
+  left: 200px;
+  right: 0;
+  top: 61px;
+  bottom: 0;
+  overflow-y: auto;
+  // background: goldenrod;
+}
+// Register.vue
+.register-container {
+  width: 100%;
+  height: 100%;
+  background-image: url("~@/assets/img/loginBg.jpg");
+  .form-container {
+    width: 400px;
+    height: 450px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background: #fff;
+    transform: translate(-50%, -50%);
+    border-radius: 6px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    .input-size {
+      width: 350px;
+    }
+    .btn-container {
+      width: 350px;
+    }
+  }
+}
+// Header.vue
+.header-container {
+  position: fixed;
+  left: 200px;
+  right: 0;
+  height: 61px;
+  .bt {
+    border-bottom: solid 1px #e6e6e6;
+  }
+  .el-menu--horizontal {
+    .el-submenu {
+      float: right;
+    }
+    .el-submenu__title {
+      min-width: 200px;
+    }
+  }
+  .user-box {
+    display: flex;
+    justify-content: right;
+  }
+  .el-breadcrumb {
+    display: flex;
+    padding: 0 0 0 20px;
+    box-sizing: border-box;
+    justify-content: left;
+    align-items: center;
+    width: 100%;
+    height: 61px;
+  }
+}
+// SideBar.vue
+.sider-bar-container {
+  width: 200px;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  .el-menu-vertical-demo:not(.el-menu--collapse) {
+    width: 200px;
+    min-height: 100%;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+  }
+  .el-menu-vertical-demo {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+  }
+}
+// Product.vue
+.product-container {
+  width: 100%;
+  height: 100%;
+  // background-color: cadetblue;
+  .cell {
+    white-space: nowrap;
+  }
+}
+// Card.vue
+.card-container {
+  width: 100%;
+  height: 100%;
+  margin: 50px 0 0 0;
+  display: flex;
+  justify-content: space-around;
+  .text {
+    font-size: 14px;
+  }
+  .item {
+    margin-bottom: 18px;
+  }
+  .clearfix:before,
+  .clearfix:after {
+    display: table;
+    content: "";
+  }
+  .clearfix:after {
+    clear: both
+  }
+  .box-card {
+    width: 480px;
+  }
+}
+// Echarts.vue
+.echarts-container {
+  width: 100%;
+  height: 100%;
+  margin: 50px 0 0 0;
+  padding: 0 50px;
+  box-sizing: border-box;
+}
+// SearchForm.vue
+.search-container {
+  width: 100%;
+  height: 62px;
+  margin: 20px 0 0 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 0 0 0 35px;
+  .el-form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  // background-color: crimson;
+}
+// GoodList.vue
+.goodlist-container {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  .search {
+    width: 100%;
+    height: 100px;
+    position: relative;
+    .addBtn {
+      position: absolute;
+      top: 0;
+      right: 20%;
+    }
+  }
+}
+// ProductTable.vue
+.table-container {
+  width: 100%;
+  height: 100px;
+  box-sizing: border-box;
+  padding: 0 20px;
+}
+
+.page-container {
+  width: 100%;
+  height: 50px;
+  position: absolute;
+  bottom: 80px;
+}
+
+// Dialog.vue
+.dialog-container {
+  // position: absolute;
+  // top: 0;
+  // left: 0;
+  // width: 100%;
+  // height: 100%;
+}
+// AddGood.vue
+.add-good-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  .addBtn {
+    position: absolute;
+      top: 10px;
+      right: 10%;
+      z-index: 99;
+  }
+}
